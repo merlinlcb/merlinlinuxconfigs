@@ -1,4 +1,4 @@
-#! bin/sh
+#!/bin/sh
 
 #obtain dependencies
 sudo apt-get -qq --yes --force-yes install ranger cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev picom
@@ -15,7 +15,7 @@ sudo apt-get -qq --yes --force-yes install xcb-util-wm python3-sphinx python3-pa
 sudo apt-get -qq --yes --force-yes install libxcb-cursor-dev libasound2-dev libpulse-dev i3-wm libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev 
 
 #copy configs
-cp polybar /home/$USER/.config/polybar/config.ini
+cp polybarconf /home/$USER/.config/polybar/config.ini
 cp i3 /home/$USER/.config/i3/config
 cp neofetch /home/$USER/.config/neofetch/config.conf
 
