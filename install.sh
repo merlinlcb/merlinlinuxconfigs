@@ -32,7 +32,7 @@ sudo apt install i3
 curl -sS https://starship.rs/install.sh | sh
 
 #polybar
-git clone https://github.com/polybar/polybar.git
+git clone --recursive https://github.com/polybar/polybar.git
 cd polybar
 mkdir build
 cd build
