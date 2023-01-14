@@ -37,7 +37,9 @@
 # FAQ
 
 - **How do I use this?**
-    - Just ask Merlin.
+    - `git clone https://github.com/merlinlcb/merlinlinuxconfigs`
+    - `cd merlinlinuxconfigs`
+    - `sudo chmod +x install.sh && ./install.sh`
 
 ---
 
