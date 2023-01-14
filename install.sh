@@ -18,6 +18,7 @@ sudo apt-get -qq --yes --force-yes install libxcb-cursor-dev libasound2-dev libp
 cp polybarconf /home/$USER/.config/polybar/config.ini
 cp i3 /home/$USER/.config/i3/config
 cp neofetch /home/$USER/.config/neofetch/config.conf
+cp merlinascii.txt /home/$USER/.config/neofetch/merlinascii.txt
 
 #install applications
 
@@ -41,5 +42,5 @@ make -j$(nproc)
 sudo make install
 
 #update .bashrc
-echo -e "neofetch --source /home/$USER/.config/neofetch/merlinascii.txt" >> ~/.bashrc
-echo -e 'eval "$(starship init bash)"' >> ~/.bashrc
+echo "neofetch --source /home/$USER/.config/neofetch/merlinascii.txt" >> ~/.bashrc
+echo 'eval "$(starship init bash)"' >> ~/.bashrc
