@@ -14,6 +14,10 @@ sudo apt-get -qq --yes --force-yes install libcurl4-openssl-dev libnl-genl-3-dev
 sudo apt-get -qq --yes --force-yes install xcb-util-wm python3-sphinx python3-packaging clang-7.0 libcairo2-dev libxcb-xkb-dev libxcb-xrm-dev 
 sudo apt-get -qq --yes --force-yes install libxcb-cursor-dev libasound2-dev libpulse-dev i3-wm libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev 
 
+mkdir /home/$USER/.config/polybar
+mkdir /home/$USER/.config/i3
+mkdir /home/$USER/.config/neofetch
+
 #copy configs
 cp polybarconf /home/$USER/.config/polybar/config.ini
 cp i3 /home/$USER/.config/i3/config
