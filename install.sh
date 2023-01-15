@@ -23,6 +23,7 @@ cp polybarconf /home/$USER/.config/polybar/config.ini
 cp i3 /home/$USER/.config/i3/config
 cp neofetch /home/$USER/.config/neofetch/config.conf
 cp merlinascii.txt /home/$USER/.config/neofetch/merlinascii.txt
+cp starship /home/$USER/.config/starship.toml
 
 #install applications
 
