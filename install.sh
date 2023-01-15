@@ -18,13 +18,6 @@ mkdir /home/$USER/.config/polybar
 mkdir /home/$USER/.config/i3
 mkdir /home/$USER/.config/neofetch
 
-#copy configs
-cp polybarconf /home/$USER/.config/polybar/config.ini
-cp i3 /home/$USER/.config/i3/config
-cp neofetch /home/$USER/.config/neofetch/config.conf
-cp merlinascii.txt /home/$USER/.config/neofetch/merlinascii.txt
-cp starship /home/$USER/.config/starship.toml
-
 #install applications
 
 #i3
@@ -49,3 +42,9 @@ sudo make install
 #update .bashrc
 echo "neofetch --source /home/$USER/.config/neofetch/merlinascii.txt" >> ~/.bashrc
 echo 'eval "$(starship init bash)"' >> ~/.bashrc
+#copy configs
+cp polybarconf /home/$USER/.config/polybar/config.ini
+cp i3 /home/$USER/.config/i3/config
+cp neofetch /home/$USER/.config/neofetch/config.conf
+cp merlinascii.txt /home/$USER/.config/neofetch/merlinascii.txt
+cp starship /home/$USER/.config/starship.toml
