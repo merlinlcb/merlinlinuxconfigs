@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #obtain dependencies
-sudo apt-get -qq --yes --force-yes install ranger cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev picom curl neofetch
+sudo apt-get -qq --yes --force-yes install ranger cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev picom curl neofetch npm
 sudo apt-get -qq --yes --force-yes install libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen
 sudo apt-get -qq --yes --force-yes install xcb-proto libxcb-xrm-dev i3-wm libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev
 sudo apt-get -qq --yes --force-yes install libpulse-dev build-essential git cmake cmake-data pkg-config libcairo2-dev libxcb1-dev libxcb-util0-dev 
